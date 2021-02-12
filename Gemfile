@@ -7,7 +7,7 @@ gem 'rails', '~> 6.1.2', '>= 6.1.2.1'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
-    gem 'sqlite3', '~> 1.4'
+
 
 
 gem 'puma', '~> 5.0'
@@ -30,6 +30,7 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
+      gem 'sqlite3', '~> 1.4'
 
 end
 
