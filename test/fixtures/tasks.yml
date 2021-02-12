@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  prioirity: 1
+  completed: false
+  date: 2021-02-11
+
+two:
+  title: MyString
+  description: MyString
+  prioirity: 1
+  completed: false
+  date: 2021-02-11
