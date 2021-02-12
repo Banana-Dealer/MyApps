@@ -29,10 +29,7 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
-end
-
-group :development do
-  gem 'sqlite3', '~> 1.4'
+    gem 'sqlite3', '~> 1.4'
 end
 
 group :test do
