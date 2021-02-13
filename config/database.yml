@@ -22,6 +22,6 @@ test:
 
 production:
   <<: *default
-  url: postgres://postgres:postgres@localhost/production
+  url: <%= ENV.fetch("DATABASE_URL") %> 
   adapter: postgresql
   database: production
