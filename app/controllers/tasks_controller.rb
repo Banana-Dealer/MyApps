@@ -23,7 +23,7 @@ class TasksController < ApplicationController
   def update
     @task = Task.find params[:id]
 
-    @task.update_attributes task_params
+    @task.update task_params
 
     redirect_to tasks_path
   end
