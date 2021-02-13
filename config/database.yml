@@ -22,5 +22,6 @@ test:
 
 production:
   <<: *default
+  url: postgres://postgres:postgres@localhost/production
   adapter: postgresql
   database: production
